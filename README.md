@@ -142,7 +142,7 @@ database and we know that each table row needs an `id` value which is the
 primary key.
 
 When we create a new song, we _do not set that song's id_. A song gets an `id`
-only when it gets saved into the database (more on inserting songs into the
+only when it gets saved into the database (more on  inserting songs into the
 database later). We therefore set the default value of the `id` argument for the
 `__init__` method equal to `None`, so that we can create new song instances that
 do not have an `id` value. We'll leave that up to the database to handle later
